@@ -1,0 +1,163 @@
+{
+  "groups": [
+    {
+      "name": "jummy.swagger",
+      "type": "com.github.jummy.swagger2.SwaggerProperties",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties"
+    },
+    {
+      "name": "jummy.swagger.basic",
+      "type": "com.github.jummy.swagger2.SwaggerProperties$Basic",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties"
+    },
+    {
+      "name": "jummy.swagger.contact",
+      "type": "com.github.jummy.swagger2.SwaggerProperties$Contact",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jummy.swagger.base-package",
+      "type": "java.lang.String",
+      "description": "swagger会解析的包路径",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties",
+      "defaultValue": "com.github.oyx"
+    },
+    {
+      "name": "jummy.swagger.base-path",
+      "type": "java.util.List<java.lang.String>",
+      "description": "swagger会解析的url规则",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties"
+    },
+    {
+      "name": "jummy.swagger.basic.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties$Basic",
+      "defaultValue": false
+    },
+    {
+      "name": "jummy.swagger.basic.password",
+      "type": "java.lang.String",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties$Basic",
+      "defaultValue": "oyx"
+    },
+    {
+      "name": "jummy.swagger.basic.username",
+      "type": "java.lang.String",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties$Basic",
+      "defaultValue": "oyx"
+    },
+    {
+      "name": "jummy.swagger.contact.email",
+      "type": "java.lang.String",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties$Contact",
+      "defaultValue": "278812951@qq.com"
+    },
+    {
+      "name": "jummy.swagger.contact.name",
+      "type": "java.lang.String",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties$Contact",
+      "defaultValue": "oyx"
+    },
+    {
+      "name": "jummy.swagger.contact.url",
+      "type": "java.lang.String",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties$Contact",
+      "defaultValue": "https:\/\/github.com\/oyx888\/oyx-admin-cloud"
+    },
+    {
+      "name": "jummy.swagger.description",
+      "type": "java.lang.String",
+      "description": "描述",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties",
+      "defaultValue": "oyx-admin-cloud 在线文档"
+    },
+    {
+      "name": "jummy.swagger.docket",
+      "type": "java.util.Map<java.lang.String,com.github.jummy.swagger2.SwaggerProperties.DocketInfo>",
+      "description": "分组文档",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties"
+    },
+    {
+      "name": "jummy.swagger.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "jummy.swagger.exclude-path",
+      "type": "java.util.List<java.lang.String>",
+      "description": "在basePath基础上需要排除的url规则",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties"
+    },
+    {
+      "name": "jummy.swagger.global-operation-parameters",
+      "type": "java.util.List<com.github.jummy.swagger2.SwaggerProperties.GlobalOperationParameter>",
+      "description": "全局参数配置",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties"
+    },
+    {
+      "name": "jummy.swagger.group",
+      "type": "java.lang.String",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "jummy.swagger.host",
+      "type": "java.lang.String",
+      "description": "host信息",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "jummy.swagger.license",
+      "type": "java.lang.String",
+      "description": "许可证",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "jummy.swagger.license-url",
+      "type": "java.lang.String",
+      "description": "许可证URL",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "jummy.swagger.order",
+      "type": "java.lang.Integer",
+      "description": "排序",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties",
+      "defaultValue": 1
+    },
+    {
+      "name": "jummy.swagger.production",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "jummy.swagger.terms-of-service-url",
+      "type": "java.lang.String",
+      "description": "服务条款URL",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties",
+      "defaultValue": "http:\/\/127.0.0.1:8080"
+    },
+    {
+      "name": "jummy.swagger.title",
+      "type": "java.lang.String",
+      "description": "标题",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties",
+      "defaultValue": "在线文档"
+    },
+    {
+      "name": "jummy.swagger.version",
+      "type": "java.lang.String",
+      "description": "版本",
+      "sourceType": "com.github.jummy.swagger2.SwaggerProperties",
+      "defaultValue": "1.0"
+    }
+  ],
+  "hints": []
+}

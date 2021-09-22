@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>json-dependencies</artifactId>
+        <groupId>com.jummy.jsoa</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../json-dependencies</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>json-authority</artifactId>
+    <name>${project.artifactId}</name>
+    <description>登陆模块</description>
+    <modules>
+        <module>json-authority-entity</module>
+        <module>json-authority-biz</module>
+        <module>json-authority-controller</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.jummy.jsoa</groupId>
+                <artifactId>jummy-databases</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jummy.jsoa</groupId>
+                <artifactId>jummy-cache-starter</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jummy.jsoa</groupId>
+                <artifactId>jummy-log-starter</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jummy.jsoa</groupId>
+                <artifactId>jummy-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus</artifactId>
+                <version>${mybatisplus.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>

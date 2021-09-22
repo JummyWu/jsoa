@@ -1,0 +1,9 @@
+META-INF/spring-configuration-metadata.json
+com/github/jummy/swagger2/SwaggerProperties$Basic.class
+com/github/jummy/swagger2/SwaggerProperties$DocketInfo.class
+com/github/jummy/swagger2/SwaggerAutoConfiguration.class
+com/github/jummy/swagger2/SwaggerProperties.class
+com/github/jummy/swagger2/Swagger2Configuration.class
+com/github/jummy/swagger2/SwaggerProperties$GlobalOperationParameter.class
+com/github/jummy/swagger2/Swagger2Configuration$JummySecurityConfiguration.class
+com/github/jummy/swagger2/SwaggerProperties$Contact.class

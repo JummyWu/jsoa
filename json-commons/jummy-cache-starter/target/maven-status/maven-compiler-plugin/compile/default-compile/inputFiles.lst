@@ -1,0 +1,6 @@
+/Users/jummywu/IdeaProjects/jsoa/json-commons/jummy-cache-starter/src/main/java/com/github/jummy/cache/repository/CacheRepository.java
+/Users/jummywu/IdeaProjects/jsoa/json-commons/jummy-cache-starter/src/main/java/com/github/jummy/cache/utils/RedisObjectSerializer.java
+/Users/jummywu/IdeaProjects/jsoa/json-commons/jummy-cache-starter/src/main/java/com/github/jummy/cache/RedisAutoConfigure.java
+/Users/jummywu/IdeaProjects/jsoa/json-commons/jummy-cache-starter/src/main/java/com/github/jummy/cache/properties/CustomCacheProperties.java
+/Users/jummywu/IdeaProjects/jsoa/json-commons/jummy-cache-starter/src/main/java/com/github/jummy/cache/repository/RedisRepositoryImpl.java
+/Users/jummywu/IdeaProjects/jsoa/json-commons/jummy-cache-starter/src/main/java/com/github/jummy/cache/CacheAutoConfigure.java

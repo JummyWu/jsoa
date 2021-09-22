@@ -1,0 +1,8 @@
+com/github/jummy/cache/utils/RedisObjectSerializer.class
+com/github/jummy/cache/properties/CustomCacheProperties$Cache.class
+META-INF/spring-configuration-metadata.json
+com/github/jummy/cache/repository/CacheRepository.class
+com/github/jummy/cache/repository/RedisRepositoryImpl.class
+com/github/jummy/cache/CacheAutoConfigure.class
+com/github/jummy/cache/RedisAutoConfigure.class
+com/github/jummy/cache/properties/CustomCacheProperties.class

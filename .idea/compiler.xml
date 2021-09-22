@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jummy-common" />
+        <module name="jummy-cache-starter" />
+        <module name="json-authority-controller" />
+        <module name="json-authority-biz" />
+        <module name="jummy-dozer-starter" />
+        <module name="jummy-swagger2-starer" />
+        <module name="json-boot-server" />
+        <module name="jummy-core" />
+        <module name="json-authority-entity" />
+        <module name="jummy-log-starter" />
+        <module name="jummy-databases" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="json-core" target="1.8" />
+      <module name="jummy-authority" target="1.8" />
+      <module name="jummy-authority-server" target="1.8" />
+      <module name="jummy-backend" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="json-authority" options="-parameters" />
+      <module name="json-authority-biz" options="-parameters" />
+      <module name="json-authority-controller" options="-parameters" />
+      <module name="json-authority-entity" options="-parameters" />
+      <module name="json-boot-server" options="-parameters" />
+      <module name="jummy-cache-starter" options="-parameters" />
+      <module name="jummy-common" options="-parameters" />
+      <module name="jummy-core" options="-parameters" />
+      <module name="jummy-databases" options="-parameters" />
+      <module name="jummy-dozer-starter" options="-parameters" />
+      <module name="jummy-log-starter" options="-parameters" />
+      <module name="jummy-swagger2-starer" options="-parameters" />
+    </option>
+  </component>
+</project>

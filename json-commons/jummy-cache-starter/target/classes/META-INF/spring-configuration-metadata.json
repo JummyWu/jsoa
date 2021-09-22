@@ -1,0 +1,57 @@
+{
+  "groups": [
+    {
+      "name": "jummy.cache",
+      "type": "com.github.jummy.cache.properties.CustomCacheProperties",
+      "sourceType": "com.github.jummy.cache.properties.CustomCacheProperties"
+    },
+    {
+      "name": "jummy.cache.def",
+      "type": "com.github.jummy.cache.properties.CustomCacheProperties$Cache",
+      "sourceType": "com.github.jummy.cache.properties.CustomCacheProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jummy.cache.configs",
+      "type": "java.util.Map<java.lang.String,com.github.jummy.cache.properties.CustomCacheProperties.Cache>",
+      "description": "针对某几个具体的key特殊配置 改属性只对 redis 有效！！！ configs的key需要配置成@Cacheable注解的value",
+      "sourceType": "com.github.jummy.cache.properties.CustomCacheProperties"
+    },
+    {
+      "name": "jummy.cache.def.cache-null-values",
+      "type": "java.lang.Boolean",
+      "description": "是否允许缓存null值",
+      "sourceType": "com.github.jummy.cache.properties.CustomCacheProperties$Cache",
+      "defaultValue": true
+    },
+    {
+      "name": "jummy.cache.def.key-prefix",
+      "type": "java.lang.String",
+      "description": "key 的前缀 最后的key格式： keyPrefix + @Cacheable.value + @Cacheable.key <p> 使用场景： 开发\/测试环境 或者 演示\/生产 环境，为了节省资源，往往会共用一个redis，即可以根据key前缀来区分(当然，也能用切换 database 来实现)",
+      "sourceType": "com.github.jummy.cache.properties.CustomCacheProperties$Cache"
+    },
+    {
+      "name": "jummy.cache.def.max-size",
+      "type": "java.lang.Integer",
+      "description": "Caffeine 的最大缓存个数",
+      "sourceType": "com.github.jummy.cache.properties.CustomCacheProperties$Cache",
+      "defaultValue": 1000
+    },
+    {
+      "name": "jummy.cache.def.time-to-live",
+      "type": "java.time.Duration",
+      "description": "key 的过期时间 默认1天过期 eg: timeToLive: 1d",
+      "sourceType": "com.github.jummy.cache.properties.CustomCacheProperties$Cache",
+      "defaultValue": "1d"
+    },
+    {
+      "name": "jummy.cache.def.use-key-prefix",
+      "type": "java.lang.Boolean",
+      "description": "写入redis时，是否使用key前缀",
+      "sourceType": "com.github.jummy.cache.properties.CustomCacheProperties$Cache",
+      "defaultValue": true
+    }
+  ],
+  "hints": []
+}

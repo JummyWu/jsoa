@@ -1,0 +1,12 @@
+com/github/jummy/entity/auth/Role$RoleBuilder.class
+com/github/jummy/enumeration/auth/AuthorizeType.class
+com/github/jummy/entity/auth/Role.class
+com/github/jummy/entity/auth/Menu$MenuBuilder.class
+com/github/jummy/entity/auth/UserRole$UserRoleBuilder.class
+com/github/jummy/entity/auth/User$UserBuilder.class
+com/github/jummy/entity/auth/RoleAuthority.class
+com/github/jummy/entity/auth/User.class
+com/github/jummy/entity/auth/Menu.class
+com/github/jummy/enumeration/auth/Sex.class
+com/github/jummy/entity/auth/RoleAuthority$RoleAuthorityBuilder.class
+com/github/jummy/entity/auth/UserRole.class

@@ -1,0 +1,7 @@
+com/github/jummy/authority/dao/UserRoleMapper.class
+com/github/jummy/authority/service/UserService.class
+com/github/jummy/authority/service/UserRoleService.class
+com/github/jummy/authority/service/impl/UserRoleServiceImpl.class
+com/github/jummy/authority/service/impl/UserServiceImpl.class
+com/github/jummy/authority/dao/RoleMapper.class
+com/github/jummy/authority/dao/UserMapper.class

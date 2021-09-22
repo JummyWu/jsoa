@@ -1,0 +1,17 @@
+/Users/jummywu/IdeaProjects/jsoa/json-commons/jummy-databases/src/main/java/com/github/jummy/database/parsers/ITableNameHandler.java
+/Users/jummywu/IdeaProjects/jsoa/json-commons/jummy-databases/src/main/java/com/github/jummy/database/parsers/DynamicTableNameParser.java
+/Users/jummywu/IdeaProjects/jsoa/json-commons/jummy-databases/src/main/java/com/github/jummy/database/mybatis/auth/DataScopeType.java
+/Users/jummywu/IdeaProjects/jsoa/json-commons/jummy-databases/src/main/java/com/github/jummy/database/mybatis/typehandler/LeftLikeTypeHandler.java
+/Users/jummywu/IdeaProjects/jsoa/json-commons/jummy-databases/src/main/java/com/github/jummy/database/datasource/BaseDbConfiguration.java
+/Users/jummywu/IdeaProjects/jsoa/json-commons/jummy-databases/src/main/java/com/github/jummy/database/parsers/TableNameParser.java
+/Users/jummywu/IdeaProjects/jsoa/json-commons/jummy-databases/src/main/java/com/github/jummy/database/mybatis/typehandler/FullLikeTypeHandler.java
+/Users/jummywu/IdeaProjects/jsoa/json-commons/jummy-databases/src/main/java/com/github/jummy/database/mybatis/typehandler/RightLikeTypeHandler.java
+/Users/jummywu/IdeaProjects/jsoa/json-commons/jummy-databases/src/main/java/com/github/jummy/database/datasource/MyMetaObjectHandler.java
+/Users/jummywu/IdeaProjects/jsoa/json-commons/jummy-databases/src/main/java/com/github/jummy/database/mybatis/auth/DataScope.java
+/Users/jummywu/IdeaProjects/jsoa/json-commons/jummy-databases/src/main/java/com/github/jummy/database/mybatis/conditions/query/LbqWrapper.java
+/Users/jummywu/IdeaProjects/jsoa/json-commons/jummy-databases/src/main/java/com/github/jummy/database/parsers/TenantWebMvcConfigurer.java
+/Users/jummywu/IdeaProjects/jsoa/json-commons/jummy-databases/src/main/java/com/github/jummy/database/mybatis/auth/DataScopeInterceptor.java
+/Users/jummywu/IdeaProjects/jsoa/json-commons/jummy-databases/src/main/java/com/github/jummy/database/mybatis/typehandler/BaseLikeTypeHandler.java
+/Users/jummywu/IdeaProjects/jsoa/json-commons/jummy-databases/src/main/java/com/github/jummy/database/mybatis/conditions/update/LbuWrapper.java
+/Users/jummywu/IdeaProjects/jsoa/json-commons/jummy-databases/src/main/java/com/github/jummy/database/mybatis/conditions/Wraps.java
+/Users/jummywu/IdeaProjects/jsoa/json-commons/jummy-databases/src/main/java/com/github/jummy/database/parsers/TenantContextHandlerInterceptor.java
